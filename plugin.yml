@@ -1,0 +1,15 @@
+name: BazaarUI
+api: 4.0.0
+main : Biswajit\Bazaar
+version: 1.0.0
+author: Biswajit
+
+commands:
+  bazaar:
+    description: Open The Bazaar Menu For Sell And Purchase Items
+    permission: bazaar.cmd
+    
+permissions:
+  bazaar.cmd:
+    description: Permission to uss bazaar command
+    default: true
